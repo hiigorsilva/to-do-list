@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <main>
+    <header>
+      <h1 class="container">Lista de Tarefas</h1>
+    </header>
+    <div class="content-area container">
+      <div class="input-task">
+        <input type="text" id="inputNewTask" placeholder="Digite uma nova tarefa">
+        <button id="btnNewTask" onclick="newTak()">
+          <img src="./assets/icons/add.svg" alt="Ícone de adicionar itens">
+        </button>
+      </div>
+      <div class="task-area">
+        <ul id="taskList">
+        </ul>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <span class="copy">Todos os direitos reservados</span>
+  </footer>
+
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
